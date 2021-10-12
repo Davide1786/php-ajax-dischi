@@ -28,8 +28,8 @@
 
 
 .album {
-    width: calc(100% / 5 - 50px);
-    margin: 25px;
+    width: calc(100% / 5 - 30px);
+    margin: 15px;
     height: 400px;
     padding: 20px;
     background-color: #2E3A46;
