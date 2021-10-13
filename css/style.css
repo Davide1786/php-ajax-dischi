@@ -13,7 +13,45 @@
 .box-header {
     width: 100%;
     height: 80px;
+    display: flex;
     background-color: #2E3A46;
+}
+
+.logotipo {
+    width: 50%;
+    height: 100%;
+}
+
+.logo {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    padding-left: 20px;
+}
+
+.logo > img {
+    width: 60px;
+    height: 60px;
+    object-fit: contain;
+}
+
+.menu {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    padding-right: 20px;
+}
+
+select {
+    width: 150px;
+    border:0; 
+    padding:10px;
+    border-radius: 5px;
+    outline: none;
+    appearance: none; 
+    text-align: center;
 }
 
 .box-main {
@@ -26,18 +64,17 @@
     background-color: #1E2D3B;
 }
 
-
 .album {
-    width: calc(100% / 5 - 30px);
-    margin: 15px;
-    height: 400px;
-    padding: 20px;
+    width: calc(100% / 5 - 60px);
+    margin: 30px;
+    height: 350px;
+    padding: 10px;
     background-color: #2E3A46;
 }
 
 .cd {
     width: 80%;
-    margin: 0 auto;
+    margin: 20px auto;
  }
 
 .cd > img {
@@ -53,11 +90,12 @@
     text-align: center;
  }
 
- h4,
- h3 {
+ h3,
+ p {
     display: flex;
     align-items: flex-end;
     justify-content: center;
     color: white;
     padding: 5px;
  }
+
